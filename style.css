@@ -1,0 +1,14 @@
+
+.margin-custom{
+    margin-top: 150px;
+}
+.margin-manual{
+    margin-bottom: 250px;
+}
+.home-cont{
+    background: url("./images/home.png");
+    background-size: cover;
+}
+.home-text{
+    font-size: 3rem;
+}
