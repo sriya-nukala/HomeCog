@@ -12,3 +12,16 @@
 .home-text{
     font-size: 3rem;
 }
+.btn-home{
+    background-color: #F2F1EB;
+}
+.btn-home:hover{
+    background-color: #F2F1EB;
+    opacity: 80%;
+    /* color: white; */
+}
+.products-img{
+    height: 300px;
+    width: 300px;
+
+}
