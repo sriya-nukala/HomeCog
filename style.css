@@ -25,3 +25,39 @@
     width: 300px;
 
 }
+/* .custom-card{
+    width: 301px;
+    align-items: center;
+    
+} */
+/* .card-cont{
+    display: flex;
+    justify-content: space-between;
+} */
+/* .card-img-custom{
+    border-radius: 5px;
+    object-fit: scale-down;
+} */
+.btn-custom{
+    outline: none;
+    border: none;
+}
+/* .custom-align{
+    align-items: center;
+    display: flex;
+} */
+
+.products-grid{
+    margin: 50px 0;
+
+
+}
+.products-grid img{
+    width: 100%;
+    padding: 20px 0;
+}
+
+#footer{
+    /* background: url("./images/home.png"); */
+    
+}
