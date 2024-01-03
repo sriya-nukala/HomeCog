@@ -1,4 +1,6 @@
-
+.click-fun{
+    pointer-events: none;
+}
 .margin-custom{
     margin-top: 150px;
 }
@@ -10,12 +12,14 @@
     background-size: cover;
 }
 #about-us{
-    /* background-color: #EEF0E5; */
-    background-color: #F2F1EB;
+    /* background-color: #B6C4B6; */
+    
+   
+    background-color: #EEF0E5;
 
 }
 #footer{
-    background-color: #A9A9A9;
+    background-color: #524f4e;
 }
 .home-text{
     font-size: 3rem;
