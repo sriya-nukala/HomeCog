@@ -12,11 +12,7 @@
     background-size: cover;
 }
 #about-us{
-    /* background-color: #B6C4B6; */
-    
-   
     background-color: #EEF0E5;
-
 }
 #footer{
     background-color: #524f4e;
@@ -30,45 +26,85 @@
 .btn-home:hover{
     background-color: #F2F1EB;
     opacity: 80%;
-    /* color: white; */
 }
 .products-img{
     height: 300px;
     width: 300px;
-
 }
-/* .custom-card{
-    width: 301px;
-    align-items: center;
-    
-} */
-/* .card-cont{
-    display: flex;
-    justify-content: space-between;
-} */
-/* .card-img-custom{
-    border-radius: 5px;
-    object-fit: scale-down;
-} */
 .btn-custom{
     outline: none;
     border: none;
 }
-/* .custom-align{
-    align-items: center;
-    display: flex;
-} */
-
 .products-grid{
     margin: 50px 0;
-
-
 }
 .products-grid img{
     width: 100%;
     padding: 20px 0;
 }
-
 .img-rcorners{
     border-radius: 10px;
 }
+#header .prod-page{
+    background-color: #524f4e;
+    /* position: fixed; */
+}
+/* #products{
+    padding-top: 100px;
+} */
+#products .cont{
+    text-align: center;
+    padding: 30px;
+    padding-left: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#products .cont .pro{
+    margin: 20px;
+    width: 20%;
+    border: 2px solid #b7b0ad;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 30px 30px rgba(0,0,0,0.1);
+    transition: 0.2s ease;
+    position: relative;
+}
+#products .cont .pro:hover{
+    box-shadow: 20px 30px 30px rgba(0,0,0,0.2);
+}
+#products .cont .pro img{
+    width: 100%;
+    border-radius: 23px;
+    padding: 10px ;
+}
+#products .cont .des{
+    text-align: start;
+    padding: 15px;
+    font-size: 15px;
+    color: #171717;
+}
+
+#products .cont .des .stars{
+    font-size: 15px;
+    color: #eaa506;
+}
+#products .des span{
+    font-size: 15px;
+}
+#products .pro .cart{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #5E616A;
+    background-color: #E2DCD5;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid #5E616A;
+}
+
+
+
