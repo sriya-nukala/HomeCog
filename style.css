@@ -45,13 +45,55 @@
 .img-rcorners{
     border-radius: 10px;
 }
-#header .prod-page{
+#header-pro{
     background-color: #524f4e;
-    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
 }
-/* #products{
-    padding-top: 100px;
-} */
+#close{
+    display: none;
+} 
+#header-pro a span{
+    font-size: 25px;
+    color: #F2F1EB;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#navbar li{
+    list-style: none;
+    padding:0px 20px;
+    font-size: 18px;
+    
+    /* text-decoration: none; */
+}
+#navbar li a{
+    color:#F2F1EB ;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    position: relative;
+
+}
+#navbar li a:hover, #navbar li a.active{
+    color: #212A3E;
+}
+#navbar i{
+    color: #F2F1EB;
+    font-size: 20px;
+}
+#header-pro .mobile{
+    display: none;
+}
 #products .cont{
     text-align: center;
     padding: 30px;
@@ -59,6 +101,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 20px;
+}
+#products h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: serif;
 }
 #products .cont .pro{
     margin: 20px;
@@ -104,6 +153,62 @@
     bottom: 20px;
     right: 20px;
     border: 1px solid #5E616A;
+}
+
+
+
+@media (max-width: 799px){
+    #header-pro ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 100vh;
+        width: 300px;
+        background-color: #524f4e;
+        position: fixed;
+        right: -300px;
+        top: 0;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        /* margin-top: 30px; */
+        padding-top: 50px;
+        padding-left: 20px;
+        transition: 0.3s;
+        
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+        font-size: 15px;
+        color: #b7b0ad;
+    
+    }
+    #header-pro .active{
+        right: 0px;
+    }
+    #header-pro .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0px;
+        padding:0px 20px;
+    }
+    #header-pro .mobile i{
+        padding:0px 10px;
+        font-size: 20px;
+        color: #F2F1EB;
+    }
+    #header-pro .mobile a{
+        font-size: 18px;
+    }
+    #lg-bag{
+        display: none;
+    }
+  
+    
+
 }
 
 
