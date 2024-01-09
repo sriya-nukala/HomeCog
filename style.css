@@ -1,3 +1,6 @@
+*{
+    font-family: 'Noto Serif', serif;
+}
 .click-fun{
     pointer-events: none;
 }
@@ -61,8 +64,10 @@
     display: none;
 } 
 #header-pro a span{
+    font-family: 'Dancing Script',cursive;
     font-size: 25px;
     color: #F2F1EB;
+    
 }
 #navbar{
     display: flex;
@@ -104,7 +109,7 @@
     margin-top: 20px;
 }
 #products h1{
-    margin-top: 100px;
+    margin-top: 60px;
     text-align: center;
     font-size: 50px;
     font-family: serif;
@@ -153,6 +158,36 @@
     bottom: 20px;
     right: 20px;
     border: 1px solid #5E616A;
+}
+#pagination{
+    text-align: center;
+    margin: 20px;
+}
+#pagination a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    background-color: #E2DCD5;
+    color: #5E616A;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+#pagination a i{
+    font-size: 18px;
+}
+#pro-img{
+    margin:30px 40px;
+    width: 50vw;
+    justify-content: center;
+}
+#pro-img .pro-img-group{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+#pro-img .pro-img-group div{
+    padding: 0px 10px;
 }
 
 
@@ -205,6 +240,23 @@
     }
     #lg-bag{
         display: none;
+    }
+    #header-pro li{
+        padding: 10px 25px;
+    }
+    #products .cont{
+        justify-content: center;
+        padding-left: 10px;
+    }
+    #products .cont .pro{
+        /* margin: 20px; */
+        width: 40%;
+        border: 2px solid #b7b0ad;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 30px 30px rgba(0,0,0,0.1);
+        transition: 0.2s ease;
+        position: relative;
     }
   
     
